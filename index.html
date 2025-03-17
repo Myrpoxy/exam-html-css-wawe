@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAWE</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+
+<body>
+    <div class="hero">
+        <header class="header">
+            <div class="container">
+                <div class="header__row">
+                    <div class="logo header__logo">
+                        <img src="img/header-logo.svg" alt="">
+                    </div>
+
+                    <div class="menu menu__header">
+                        <nav class="menu__raw">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="#aboutus" class="menu__link">О&nbsp;нас</a></li>
+                                <li class="menu__item"><a href="#service" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="#price" class="menu__link">Стоимость</a></li>
+                                <li class="menu__item"><a href="#blog" class="menu__link">Блог</a></li>
+                                <li class="menu__item"><a href="#team" class="menu__link">Команда</a></li>
+                                <li class="menu__item"><a href="#contact" class="menu__link">Контакты</a></li>
+                            </ul>
+                        </nav>
+
+                        <button class="menu__toggle" aria-label="Toggle menu">
+                            <span class="menu__toggle__bar"></span>
+                            <span class="menu__toggle__bar"></span>
+                            <span class="menu__toggle__bar"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="container">
+            <div class="hero__center">
+                <div class="hero__title">
+                    <h1 class="hero__title">WAWE</h1>
+                </div>
+                <div class="hero__desc">
+                    <p>Школа серфинга на канарских Островах</p>
+                </div>
+                <div class="hero__icon">
+                    <img src="img/hero-serf.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <section class="aboutus" id="aboutus">
+        <div class="container">
+            <div class="title aboutus__title title--big">
+                <h2>О ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ</h2>
+            </div>
+            <div class="aboutus__grid">
+                <div class="aboutus__g-item">
+                    <p>Канарские острова не случайно называют европейскими Гавайями – это идеальное место для
+                        поклонников серфинга: стабильный теплый ветер круглый год, песчаные пляжи, километры
+                        нетронутых просторов и прозрачное море. А настоящей Меккой для серфингистов становится
+                        Фуэртевентура – второй по величине остров архипелага.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Пока что вы только хотите понять, что такое серфинг, или уже испытали всю прелесть катания на
+                        волнах, но желаете поднять свой уровень? Наша школа серфинга сможет предложить обучение для
+                        любого уровня подготовки.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Именно здесь лучшее в Испании место, в котором можно пройти обучение серфингу. Кроме того,
+                        что зимой и осенью сюда приходят огромные атлантические волны, Фуэртевентура может
+                        похвастать и множеством мелководных спокойных лагун, отлично подходящих для обучения
+                        начинающих серфингистов.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Четыре часа увлекательных занятий в день помогут вам уверенно покорять волны, почувствовать
+                        себя настоящим серфингистом.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Серфинг на Канарских островах доступен круглый год – и волны, и подходящая погода здесь есть
+                        всегда. Причем волну, подходящую по уровню, сможет найти и настоящий профи, и новичок. Не
+                        случайно считается, что именно это место лучше всего подойдет для обучения здесь возможно
+                        без сложностей переходить на новый уровень.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Основные достоинства нашей русской школы – высокое качество преподавания и организации
+                        занятий, безопасность (все наши клиенты застрахованы в компании Allianz), отличный инвентарь
+                        и экипировка (предоставляется на весь курс обучения), в том числе мягкие безопасные доски
+                        для начинающих.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Перечисляя достоинства, нельзя обойти и то, что пляжи Фуэртевентуры самые протяженные на
+                        Канарах. В итоге невозможно представить их переполненных туристами. Вы столкнетесь только с
+                        теми, кого,как и вас, будет интересовать одна цель – обучение серфингу.</p>
+                </div>
+                <div class="aboutus__g-item">
+                    <p>Сначала мы определяем уровень катания и физической подготовки и только потом составляем
+                        программу подготовки. И можем заверить, что после того, как закончится обучение, вы не
+                        только получите массу великолепных ощущений, но и это уровень поднимется на новую ступень.</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <section class="service" id="service">
+        <div class="container">
+            <div class="title service__title">
+                <h2>В ШКОЛЕ ВЫ ПОЛУЧИТЕ</h2>
+
+                <div class="service__grid1">
+                    <div class="service__left-habitation">
+                        <div class="service__heading">
+                            <div class="service__icon">
+                                <img src="img/service-habitation.svg" alt="">
+                            </div>
+                            <!-- <span clacc="service__icon-desc">ПРОЖИВАНИЕ</span> -->
+                            <div class="service__icon-desc">
+                                <h4>ПРОЖИВАНИЕ</h4>
+                            </div>
+                        </div>
+                        <div class="service__desc">
+                            <p>Наша школа серфинга находится в 100 м от океанского побережья. К услугам гостей открытый
+                                бассейн и бесплатный Wi-Fi. Из верхней террасы открывается вид на океан. Расстояние до
+                                центра города 15 мин.</p>
+                        </div>
+                    </div>
+
+                    <div class="service__center-flight">
+                        <div class="service__heading">
+                            <div class="service__icon">
+                                <img src="img/service-flight.svg" alt="">
+                            </div>
+                            <!-- <span class="service__icon-desc">ПЕРЕЛЕТ И СТРАХОВКУ</span> -->
+                            <div class="service__icon-desc">
+                                <h4>ПЕРЕЛЕТ И СТРАХОВКУ</h4>
+                            </div>
+                        </div>
+                        <div class="service__desc">
+                            <p>Все участники программы застрахованы страховой компанией Allianz.
+                                Перелет из Тенерифе до острова Лансароте и обратно входит в стоимость программы</p>
+                        </div>
+                    </div>
+
+                    <div class="service__right-training">
+                        <div class="service__heading">
+                            <div class="service__icon">
+                                <img src="img/service-training.svg" alt="">
+                            </div>
+                            <!-- <span class="service__icon-desc">ОБУЧЕНИЕ И ЭКИПИРОВКУ</span> -->
+                            <div class="service__icon-desc">
+                                <h4>ОБУЧЕНИЕ И ЭКИПИРОВКУ</h4>
+                            </div>
+                        </div>
+                        <div class="service__desc">
+                            <p>Все оборудование и экипировка известных производителей и предоставляется на весь курс
+                                программы. Тренировочный процесс начинается с определения вашего уровня катания </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service__grid2">
+                    <div class="service__left-diagram">
+                        <div class="service__diagram">
+                            <div class="service__wawe">
+                                <img src="img/service-diagram1.svg" alt=""><span>85%</span>
+                            </div>
+                        </div>
+                        <div class="service__descdiagram">
+                            <p>Приехали второй раз</p>
+                        </div>
+
+                        <div class="service__diagram">
+                            <div class="service__wawe">
+                                <img src="img/service-diagram2.svg" alt=""><span>95%</span>
+                            </div>
+                        </div>
+                        <div class="service__descdiagram">
+                            <p>Научились кататься</p>
+                        </div>
+
+                        <div class="service__diagram">
+                            <div class="service__wawe">
+                                <img src="img/service-diagram3.svg" alt=""><span>99%</span>
+                            </div>
+                        </div>
+                        <div class="service__descdiagram">
+                            <p>Довольных клиентов</p>
+                        </div>
+                    </div>
+
+
+                    <div class="service__right-method">
+                        <div class="service__method">
+                            <p>Огромным преимуществом нашей школы является собственная методика обучения. Мы разработали
+                                собственный стиль обучения серфингу, который позволяет новичкам максимально быстро
+                                встать на доску.</p>
+                        </div>
+                        <div class="service__method">
+                            <p>Именно наша методика и наши преподаватели позволили нам пройти аттестацию Федерации
+                                серфинга Канарских островов - FEDERACIÓN CANARIA DE SURF. Это означает, что наша школа
+                                соответствует всем мировым стандартам. Переаттестация производится ежегодно и это
+                                позволяет нам всегда стремиться к улучшению обучения.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="apex" id="apex">
+        <!-- <div class="container2">
+            <div class="apex__icon">
+                <img src="img/apex.jpg" alt="">
+            </div>
+        </div> -->
+
+        <div class="apex__icon">
+            <img src="img/apex.jpg" alt="">
+        </div>
+
+        <div class="container">
+            <div class="apex__row">
+                <div class="title apex__title title--big2">
+                    <h2>ПОКОРЯЙ ВЕРШИНЫ</h2>
+                </div>
+                <div class="apex__text apex__text--first">
+                    <p>Преподаватели нашей школы серфинга в числе лучших серферов на Канарских островах. Среди них -
+                        чемпион Европы по лонгборду, который с радостью поделится опытом как с новичками, так и более
+                        опытными серферами.
+                        Все члены преподавательского состава являются сертифицированными членами Федерации серфинга
+                        Канарских островов. Некоторые из них знают русский язык, что определенно позиционирует нас как
+                        русскую школу серфинга за границей!</p>
+                </div>
+                <div class="apex__text">
+                    <p>Весь тренерский состав регулярно участвует в семинарах и курсах повышения квалификации, которые
+                        проводятся по всему миру различными известными серф-клубами и федерациями. Поэтому в нашей школе
+                        серфинга вы можете быть спокойны: вас обучают лучшие тренеры!</p>
+                </div>
+                <div class="apex__text">
+                    <p>Методика обучения серфингу рассчитана как на новичков, на серферов среднего уровня, так и на
+                        серферов уровня ТОП. Тренеры находят подход к каждому, несмотря на то, что обучение серфингу в
+                        нашей школе производится в группах. Однако, мы предлагаем персональные уроки серфинга - только
+                        вы и тренер!</p>
+                </div>
+            </div>
+            <!-- <div class="apex__icon">
+                <img src="img/apex.jpg" alt="">
+            </div> -->
+        </div>
+    </section>
+
+
+
+
+
+    <section class="galery" id="galery">
+        <div class="container">
+            <div class="title service__title">
+                <h2>ГАЛЕРЕЯ</h2>
+            </div>
+
+            <nav class="galery__menu">
+                <ul class="galery__list">
+                    <li class="galery__item"><a href="#" class="galery__link">ВСЕ</a></li>
+                    <li class="galery__item"><a href="#" class="galery__link">ТУРИСТЫ</a></li>
+                    <li class="galery__item"><a href="#" class="galery__link">ПРИРОДА</a></li>
+                    <li class="galery__item"><a href="#" class="galery__link">ПРОФИ</a></li>
+                </ul>
+            </nav>
+
+            <div class="galery__grid">
+                <div class="galery__g-item item1">
+                    <img src="img/galery-icon1.jpg" alt="">
+                </div>
+                <div class="galery__g-item item2">
+                    <img src="img/galery-icon2.jpg" alt="">
+                </div>
+                <div class="galery__g-item item3">
+                    <img src="img/galery-icon3.jpg" alt="">
+                </div>
+                <div class="galery__g-item item4">
+                    <img src="img/galery-icon4.jpg" alt="">
+                </div>
+                <div class="galery__g-item item5">
+                    <img src="img/galery-icon5.jpg" alt="">
+                </div>
+                <div class="galery__g-item item6">
+                    <img src="img/galery-icon6.jpg" alt="">
+                </div>
+            </div>
+
+            <form action="post" class="galery__form">
+                <button class="button galery__button">ПОКАЗАТЬ ЕЩЕ</button>
+            </form>
+
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="quote" id="quote">
+        <div class="container">
+            <div class="quote__text">
+                <p>«Если сомневаешься – иди катайся.»</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <section class="video" id="video">
+        <div class="container">
+            <div class="video__content">
+                <img src="img/video-bg.jpg" alt="">
+                <img src="img/video-play.svg" alt="" class="video__play">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="digits" id="digits">
+        <div class="container">
+            <div class="digits__row">
+                <div class="digits__item">
+                    <div class="digits__number">
+                        <p>450</p>
+                    </div>
+                    <div class="digits__desc">
+                        <p>туристов</p>
+                    </div>
+                </div>
+                <div class="digits__item">
+                    <div class="digits__number">
+                        <p>2500</p>
+                    </div>
+                    <div class="digits__desc">
+                        <p>часов катания</p>
+                    </div>
+                </div>
+                <div class="digits__item">
+                    <div class="digits__number">
+                        <p>10</p>
+                    </div>
+                    <div class="digits__desc">
+                        <p>проф. тренеров</p>
+                    </div>
+                </div>
+                <div class="digits__item">
+                    <div class="digits__number">
+                        <p>365</p>
+                    </div>
+                    <div class="digits__desc">
+                        <p>дней в году</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="blog" id="blog">
+        <div class="container">
+            <div class="title service__title">
+                <h2>БЛОГ</h2>
+            </div>
+        </div>
+
+        <div class="slider">
+            <div class="slider__items">
+                <div class="slider__item item1">
+                    <div class="container">
+                        <div class="slider__row">
+                            <div class="slider__title">
+                                <p>ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР</p>
+                            </div>
+                            <div class="slider__desc">
+                                <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item item2">
+                    <div class="container">
+                        <div class="slider__row">
+                            <div class="slider__title">
+                                <p>ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР</p>
+                            </div>
+                            <div class="slider__desc">
+                                <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider__item item3">
+                    <div class="container">
+                        <div class="slider__row">
+                            <div class="slider__title">
+                                <p>ЧТО НЕОБХОДИМО ВЗЯТЬ С СОБОЙ НА СЕРФ ТУР</p>
+                            </div>
+                            <div class="slider__desc">
+                                <p>ТОП 20 необходимых вещей для комфортного отдыха и обучения</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider__scroller"></div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="team" id="team">
+        <div class="container">
+            <div class="title service__title">
+                <h2>НАША КОМАНДА</h2>
+            </div>
+
+            <div class="team__row">
+                <div class="team__col">
+                    <div class="team__item">
+                        <div class="team__icon"><img src="img/team-1.jpg" alt=""></div>
+                        <div class="team__name">
+                            <p>Mike</p>
+                        </div>
+                        <div class="team__profession">
+                            <p>Главный инстуктор</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team__col">
+                    <div class="team__item">
+                        <div class="team__icon"><img src="img/team-2.jpg" alt=""></div>
+                        <div class="team__name">
+                            <p>Mary</p>
+                        </div>
+                        <div class="team__profession">
+                            <p>инстуктор</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team__col">
+                    <div class="team__item">
+                        <div class="team__icon"><img src="img/team-3.jpg" alt=""></div>
+                        <div class="team__name">
+                            <p>Ольга</p>
+                        </div>
+                        <div class="team__profession">
+                            <p>инстуктор</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="price" id="price">
+        <div class="container">
+            <div class="title service__title">
+                <h2>ПАКЕТЫ УСЛУГ</h2>
+            </div>
+
+            <div class="price__row">
+                <div class="price__col">
+                    <div class="price__item">
+                        <div class="price__title">
+                            <p>Стандарт</p>
+                        </div>
+                        <div class="price__includes">
+                            <ul class="price__list">
+                                <li class="price__li-item">Проживание на вилле 6 ночей </li>
+                                <li class="price__li-item">Номер категории стандарт</li>
+                                <li class="price__li-item">Экипировка для обучения</li>
+                                <li class="price__li-item">Обучение серфингу 5 тренировок по 2 часа</li>
+                                <li class="price__li-item">Страховка</li>
+                                <li class="price__li-item">Вечеринка с угощениями и дискотекой</li>
+                            </ul>
+                        </div>
+                        <div class="price__cost">
+                            <p>450</p><span>$</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price__col">
+                    <div class="price__item">
+                        <div class="price__title">
+                            <p>Все включено</p>
+                        </div>
+                        <div class="price__includes">
+                            <ul class="price__list">
+                                <li class="price__li-item">Проживание на вилле 6 ночей </li>
+                                <li class="price__li-item">Номер категории люкс</li>
+                                <li class="price__li-item">Экипировка для обучения</li>
+                                <li class="price__li-item">Обучение серфингу 8 тренировок по 2 часа</li>
+                                <li class="price__li-item">Страховка</li>
+                                <li class="price__li-item">Вечеринка с угощениями и дискотекой</li>
+                                <li class="price__li-item">Авиа перелет Тенерифе -Лансароте - Тенерифе</li>
+                                <li class="price__li-item">Завтраки на вилле</li>
+                            </ul>
+                        </div>
+                        <div class="price__cost">
+                            <p>950</p><span>$</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price__col">
+                    <div class="price__item">
+                        <div class="price__title">
+                            <p>Профи</p>
+                        </div>
+                        <div class="price__includes">
+                            <ul class="price__list">
+                                <li class="price__li-item">Проживание на вилле 8 ночей </li>
+                                <li class="price__li-item">Номер категории люкс</li>
+                                <li class="price__li-item">Экипировка для обучения</li>
+                                <li class="price__li-item">Обучение серфингу 16 тренировок по 2 часа</li>
+                                <li class="price__li-item">Страховка</li>
+                                <li class="price__li-item">Вечеринка с угощениями и дискотекой</li>
+                                <li class="price__li-item">Авиа перелет Тенерифе -Лансароте - Тенерифе</li>
+                                <li class="price__li-item">Завтраки и ужины на вилле</li>
+                            </ul>
+                        </div>
+                        <div class="price__cost">
+                            <p>1450</p><span>$</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <section class="map" id="map">
+        <div class="container">
+            <div class="map__content" id="mapJS" style="width: 100%; height: 640px;">
+                <!-- <img src="img/map-img.jpg" alt=""> -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="title service__title">
+                <h2>ОСТАВИТЬ ЗАЯВКУ</h2>
+            </div>
+
+            <div class="contact__row">
+                <div class="contact__left">
+                    <div class="contact__left-item">
+                        <form class="contact__form" id="contactForm">
+                            <input type="text" name="name" class="contact__name" id="contactName" required
+                                placeholder="Имя" pattern="\^[a-zA-Z_-]{3,30}$">
+                            <input type="tel" name="tel" class="contact__tel" id="contactTel" required
+                                placeholder="Телефон">
+                            <textarea name="message" id="textMsg" cols="30" rows="10"
+                                placeholder="Оставьте сообщение, и мы свяжемся с Вами в ближайшее время"></textarea>
+                            <button type="submit" class="button contact__button" id="contactBtn">ОТПРАВИТЬ</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact__right">
+                    <div class="contact__right-item">
+                        <div class="contact__text">
+                            <p>Есть вопрос?<br>Вы можете связаться с нами:</p>
+                        </div>
+                        <div class="contact__text">
+                            <p>WhatsApp, Viber, Telegram<br>+3 467 486-37-88</p>
+                        </div>
+                        <div class="contact__text">
+                            <p>Avenida grandes playas&nbsp;79,<br>
+                                Corralejo la Oliva Fuerteventura,<br>Spain. 35660</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="contact__row2">
+                <div class="contact__messenger">
+                    <p>INSTAGRAM</p>
+                </div>
+                <div class="contact__messenger">
+                    <p>FACEBOOK</p>
+                </div>
+                <div class="contact__messenger">
+                    <p>YOUTUBE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="logo footer__logo">
+            <img src="img/header-logo.svg" alt="">
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script type="text/javascript" src="js/sendForm.js"></script>
+    <script type="text/javascript" src="js/burger.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- 1920px - современные мониторы
+     12px - полоса прокрутки
+     1366px - старые мониторы
+     1024px - планшет/монитор 
+     768px - планшет 
+     576px - большие телефоны
+     ...мобильные версии
+     375-360px - после нее не нужен адаптив
+     320px - IPhone SE
+-->
